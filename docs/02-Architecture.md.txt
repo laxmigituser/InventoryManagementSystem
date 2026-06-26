@@ -1,18 +1,85 @@
 # Software Architecture
 
-Frontend
+## Overview
+
+The Inventory Management System follows a three-tier architecture.
+
+```
++----------------------+
+|      Frontend        |
+| React + Material UI  |
++----------+-----------+
+           |
+           | HTTP/JSON
+           |
++----------v-----------+
+|       Backend        |
+| Spring Boot REST API |
++----------+-----------+
+           |
+           | JPA
+           |
++----------v-----------+
+|      PostgreSQL      |
+|      Database        |
++----------------------+
+```
+
+---
+
+## Responsibilities
+
+### Frontend
+
+Responsible for:
+
+- Displaying screens
+- Capturing user input
+- Calling backend APIs
+- Showing results
+
+The frontend never talks directly to the database.
+
+---
+
+### Backend
+
+Responsible for:
+
+- Business logic
+- Validation
+- Authentication
+- Authorization
+- Database operations
+
+---
+
+### Database
+
+Responsible for:
+
+- Storing application data
+- Maintaining relationships
+- Ensuring data integrity
+
+---
+
+## Request Flow
+
+```
+User
 
 ↓
 
-React
+React UI
 
 ↓
 
-REST API
+HTTP Request
 
 ↓
 
-Spring Boot
+Spring Boot Controller
 
 ↓
 
@@ -26,11 +93,9 @@ Repository Layer
 
 PostgreSQL
 
----
+↓
 
-## Backend Layers
-
-Controller
+Repository
 
 ↓
 
@@ -38,42 +103,17 @@ Service
 
 ↓
 
-Repository
+Controller
 
 ↓
 
-Database
-
----
-
-## Frontend Layers
-
-Pages
+JSON Response
 
 ↓
 
-Components
+React UI
 
 ↓
 
-Services
-
-↓
-
-REST API
-
----
-
-## Testing
-
-REST Assured
-
-↓
-
-Backend APIs
-
-Playwright
-
-↓
-
-Frontend UI
+User
+```

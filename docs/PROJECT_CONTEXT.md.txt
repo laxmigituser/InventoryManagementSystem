@@ -61,12 +61,12 @@ Phase 1 - Planning
 
 ## Current Lesson
 
-Lesson 1 - Requirements Gathering
+Lesson 2 – Software Architecture
 
 ## Current Status
 
-Project Initialized
+Architecture documented.
 
 ## Next Lesson
 
-Software Architecture
+Lesson 3 – Database Design

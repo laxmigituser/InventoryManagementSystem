@@ -17,3 +17,17 @@ Requirements Gathering
 ## Next
 
 Create Software Architecture
+
+## Completed
+
+- Software architecture defined
+- Request flow understood
+- Application modules identified
+
+## Current Lesson
+
+Lesson 2 – Software Architecture
+
+## Next
+
+Lesson 3 – Database Design
