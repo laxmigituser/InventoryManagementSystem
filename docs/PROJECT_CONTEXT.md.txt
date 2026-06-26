@@ -1,0 +1,72 @@
+# Inventory Management System
+
+## Goal
+
+Build a production-quality Inventory Management System while learning full-stack development from scratch.
+
+The focus is on understanding every concept before implementation.
+
+---
+
+## Technology Stack
+
+### Backend
+
+- Java 21
+- Spring Boot 3
+- Spring Security
+- Spring Data JPA
+- PostgreSQL
+- Maven
+
+### Frontend
+
+- React
+- Vite
+- Material UI
+- Axios
+
+### API Testing
+
+- REST Assured
+- JUnit 5
+
+### UI Testing
+
+- Playwright
+- TypeScript
+
+### DevOps
+
+- Git
+- GitHub
+- Docker
+- GitHub Actions
+
+---
+
+## Learning Rules
+
+- Explain concepts before coding.
+- Explain important code line by line.
+- Build incrementally.
+- Complete one feature before starting another.
+- Keep documentation updated.
+
+---
+
+## Current Phase
+
+Phase 1 - Planning
+
+## Current Lesson
+
+Lesson 1 - Requirements Gathering
+
+## Current Status
+
+Project Initialized
+
+## Next Lesson
+
+Software Architecture

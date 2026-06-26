@@ -1,0 +1,73 @@
+# Functional Requirements
+
+## Users
+
+1. Administrator
+2. Store Manager
+3. Employee
+
+---
+
+## Authentication
+
+- Login
+- Logout
+- JWT Authentication
+- Role Based Authorization
+
+---
+
+## Dashboard
+
+Display
+
+- Total Products
+- Low Stock Products
+- Categories
+- Suppliers
+- Recent Transactions
+
+---
+
+## Product Management
+
+- Add Product
+- Update Product
+- Delete Product
+- Search Product
+- Filter Products
+- Product Details
+
+---
+
+## Category Management
+
+- Create Category
+- Update Category
+- Delete Category
+- View Category
+
+---
+
+## Supplier Management
+
+- Add Supplier
+- Update Supplier
+- Delete Supplier
+
+---
+
+## Inventory
+
+- Stock In
+- Stock Out
+- Stock History
+
+---
+
+## Reports
+
+- Current Stock
+- Low Stock
+- Inventory Transactions
+- Product Report

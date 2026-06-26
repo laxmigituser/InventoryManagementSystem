@@ -1,0 +1,79 @@
+# Software Architecture
+
+Frontend
+
+↓
+
+React
+
+↓
+
+REST API
+
+↓
+
+Spring Boot
+
+↓
+
+Service Layer
+
+↓
+
+Repository Layer
+
+↓
+
+PostgreSQL
+
+---
+
+## Backend Layers
+
+Controller
+
+↓
+
+Service
+
+↓
+
+Repository
+
+↓
+
+Database
+
+---
+
+## Frontend Layers
+
+Pages
+
+↓
+
+Components
+
+↓
+
+Services
+
+↓
+
+REST API
+
+---
+
+## Testing
+
+REST Assured
+
+↓
+
+Backend APIs
+
+Playwright
+
+↓
+
+Frontend UI
