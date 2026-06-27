@@ -31,3 +31,17 @@ Lesson 2 – Software Architecture
 ## Next
 
 Lesson 3 – Database Design
+
+## Completed
+
+- Database entities identified
+- Relationships defined
+- Initial schema documented
+
+## Current Lesson
+
+Lesson 3 – Database Design
+
+## Next
+
+Lesson 4 – Development Environment & Git Workflow

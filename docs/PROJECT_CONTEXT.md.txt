@@ -70,3 +70,15 @@ Architecture documented.
 ## Next Lesson
 
 Lesson 3 – Database Design
+
+## Current Lesson
+
+Lesson 3 – Database Design
+
+## Current Status
+
+Initial database schema completed.
+
+## Next Lesson
+
+Lesson 4 – Development Environment & Git Workflow

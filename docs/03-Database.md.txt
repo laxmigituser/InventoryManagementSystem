@@ -1,0 +1,71 @@
+# Database Design
+
+## Tables
+
+### Users
+
+| Column | Type | Description |
+|---------|------|-------------|
+| id | BIGINT | Primary Key |
+| username | VARCHAR | Login username |
+| password | VARCHAR | Encrypted password |
+| role | VARCHAR | ADMIN / MANAGER / EMPLOYEE |
+
+---
+
+### Categories
+
+| Column | Type |
+|---------|------|
+| id | BIGINT |
+| name | VARCHAR |
+| description | VARCHAR |
+
+---
+
+### Suppliers
+
+| Column | Type |
+|---------|------|
+| id | BIGINT |
+| name | VARCHAR |
+| contact_person | VARCHAR |
+| email | VARCHAR |
+| phone | VARCHAR |
+
+---
+
+### Products
+
+| Column | Type |
+|---------|------|
+| id | BIGINT |
+| sku | VARCHAR |
+| name | VARCHAR |
+| description | VARCHAR |
+| price | DECIMAL |
+| quantity | INTEGER |
+| category_id | BIGINT |
+| supplier_id | BIGINT |
+
+---
+
+### Inventory Transactions
+
+| Column | Type |
+|---------|------|
+| id | BIGINT |
+| product_id | BIGINT |
+| transaction_type | VARCHAR |
+| quantity | INTEGER |
+| transaction_date | TIMESTAMP |
+
+---
+
+## Relationships
+
+Category 1 ---- * Product
+
+Supplier 1 ---- * Product
+
+Product 1 ---- * InventoryTransaction
