@@ -1,0 +1,24 @@
+# Architecture Decisions
+
+---
+
+## Decision 1
+
+### Folder Structure
+
+We maintain separate folders for:
+
+- backend
+- frontend
+- api-tests
+- ui-tests
+- database
+- docs
+
+Reason
+
+Keeps responsibilities separated and makes the project scalable.
+
+Status
+
+Approved

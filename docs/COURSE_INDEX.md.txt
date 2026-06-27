@@ -1,0 +1,14 @@
+# Course Index
+
+## Phase 1 - Planning
+- Lesson 1 - Requirements ✅
+- Lesson 2 - Architecture ✅
+- Lesson 3 - Database Design ✅
+- Lesson 4 - Environment Setup ✅
+- Lesson 5 - HTTP & REST Fundamentals ✅
+
+## Phase 2 - Backend Development
+- Lesson 6 - Spring Boot Project Setup 🔄
+- Lesson 7 - Project Structure
+- Lesson 8 - First REST API
+...

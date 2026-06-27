@@ -51,3 +51,68 @@ Format used to exchange data between frontend and backend.
 ## REST API
 
 Collection of HTTP endpoints exposed by the backend.
+# Spring Boot Project Setup
+
+## Project Generator
+
+Spring Initializr (https://start.spring.io)
+
+## IDE
+
+IntelliJ IDEA Community Edition
+
+## Project Structure
+
+InventoryManagementSystem/
+└── backend/
+
+## Dependencies
+
+- Spring Web
+- Spring Data JPA
+- PostgreSQL Driver
+- Spring Security
+- Validation
+- Lombok
+- Spring Boot DevTools
+
+# Maven
+
+## What is Maven?
+
+Build automation and dependency management tool.
+
+Responsibilities:
+
+- Download dependencies
+- Compile Java
+- Run tests
+- Package application
+- Manage versions
+
+---
+
+## pom.xml
+
+Project Object Model
+
+Contains:
+
+- Project metadata
+- Dependencies
+- Plugins
+- Build configuration
+
+---
+
+## Common Commands
+
+mvn clean
+
+mvn compile
+
+mvn test
+
+mvn package
+
+mvn clean install

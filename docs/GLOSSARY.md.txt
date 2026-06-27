@@ -1,0 +1,37 @@
+# Glossary
+
+## Maven
+
+A build automation and dependency management tool for Java projects.
+
+---
+
+## POM
+
+Project Object Model.
+
+The XML file that tells Maven how to build the project.
+
+---
+
+## Dependency
+
+An external library your application uses.
+
+Example:
+
+Spring Web
+
+---
+
+## Artifact
+
+The output produced by Maven.
+
+Usually a JAR file.
+
+---
+
+## Snapshot
+
+A development version of an application.

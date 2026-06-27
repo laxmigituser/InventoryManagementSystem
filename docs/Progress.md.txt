@@ -73,3 +73,29 @@ Backend Fundamentals
 ## Next
 
 Create Spring Boot Project
+## Completed
+
+- Spring Boot project generated
+- Backend project imported into IntelliJ
+- Project structure reviewed
+
+## Current
+
+Reviewing generated Spring Boot files
+
+## Next
+
+Understand Maven and pom.xml
+## Completed
+
+- Spring Boot project created
+- Project imported into IntelliJ
+- Project structure verified
+
+## Current
+
+Understanding generated Spring Boot project
+
+## Next
+
+Learn Maven and pom.xml
