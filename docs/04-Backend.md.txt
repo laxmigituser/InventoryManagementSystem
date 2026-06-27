@@ -1,0 +1,53 @@
+# Backend Fundamentals
+
+## Client
+
+Software that sends requests to the backend.
+
+Examples:
+- Browser
+- Postman
+- Playwright
+
+---
+
+## Server
+
+Software that receives requests and sends responses.
+
+Our server:
+- Spring Boot
+
+---
+
+## HTTP
+
+Protocol used for communication between client and server.
+
+---
+
+## HTTP Methods
+
+GET
+Read data
+
+POST
+Create data
+
+PUT
+Update data
+
+DELETE
+Delete data
+
+---
+
+## JSON
+
+Format used to exchange data between frontend and backend.
+
+---
+
+## REST API
+
+Collection of HTTP endpoints exposed by the backend.

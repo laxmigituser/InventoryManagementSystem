@@ -82,3 +82,27 @@ Initial database schema completed.
 ## Next Lesson
 
 Lesson 4 – Development Environment & Git Workflow
+
+## Current Lesson
+
+Lesson 4 – Development Environment & Git Workflow
+
+## Current Status
+
+Development environment prepared.
+
+## Next Lesson
+
+Lesson 5 – Spring Boot Fundamentals
+
+## Current Lesson
+
+Lesson 5 – Backend Fundamentals
+
+## Current Status
+
+HTTP and REST concepts understood.
+
+## Next Lesson
+
+Lesson 6 – Create First Spring Boot Project

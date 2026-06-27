@@ -45,3 +45,31 @@ Lesson 3 – Database Design
 ## Next
 
 Lesson 4 – Development Environment & Git Workflow
+
+## Completed
+
+- Development tools verified
+- Git configured
+- GitHub repository connected
+
+## Current Lesson
+
+Lesson 4 – Development Environment & Git Workflow
+
+## Next
+
+Lesson 5 – Spring Boot Fundamentals
+## Completed
+
+- Client/Server architecture
+- HTTP
+- REST API
+- JSON
+
+## Current Lesson
+
+Backend Fundamentals
+
+## Next
+
+Create Spring Boot Project
