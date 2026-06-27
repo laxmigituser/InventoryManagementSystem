@@ -116,3 +116,16 @@ mvn test
 mvn package
 
 mvn clean install
+
+## Maven Dependencies
+
+| Dependency | Purpose |
+|------------|---------|
+| Spring Web | REST APIs |
+| Spring Data JPA | Database access |
+| PostgreSQL Driver | PostgreSQL connectivity |
+| Spring Security | Authentication & Authorization |
+| Validation | Request validation |
+| Lombok | Boilerplate reduction |
+| DevTools | Development productivity |
+| Spring Boot Test | Testing support |

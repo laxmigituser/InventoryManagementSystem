@@ -35,3 +35,22 @@ Usually a JAR file.
 ## Snapshot
 
 A development version of an application.
+
+## Starter Dependency
+
+A Spring Boot dependency that brings in a collection of related libraries.
+
+Example:
+spring-boot-starter-web
+
+---
+
+## Lombok
+
+A library that generates boilerplate code such as getters, setters, constructors, builders, and more during compilation.
+
+---
+
+## DevTools
+
+A Spring Boot library that automatically restarts the application when code changes during development.
