@@ -3,7 +3,7 @@ package com.lns.inventory.service;
 import com.lns.inventory.entity.Product;
 import com.lns.inventory.repository.ProductRepository;
 import org.springframework.stereotype.Service;
-
+import java.util.Optional;
 import java.util.List;
 
 @Service
@@ -21,5 +21,9 @@ public class ProductService {
 
     public Product createProduct(Product product) {
         return productRepository.save(product);
+    }
+
+    public Optional<Product> getProductById(Long id) {
+        return productRepository.findById(id);
     }
 }

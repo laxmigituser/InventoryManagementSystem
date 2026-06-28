@@ -47,3 +47,11 @@ Implementation:
 - createProduct()
 - Save Product to PostgreSQL
 
+## Lesson 16
+Topics:
+- Path Variables
+- Optional
+- GET by ID
+Implementation:
+- getProductById()
+

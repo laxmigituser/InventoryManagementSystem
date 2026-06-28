@@ -34,3 +34,5 @@ Options:
 ## Get Mapping : Handles HTTP GET requests.
 ## @RequestBody: Converts JSON from an HTTP request into a Java object.
 ## @PostMapping: Maps HTTP POST requests to controller methods.
+## Optional : A Java container object that may or may not contain a value.
+## @PathVariable : Extracts values from the URL into method parameters.

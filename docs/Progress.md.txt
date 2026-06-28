@@ -112,4 +112,8 @@ Backend Progress : 35%
 - Save to Database
 Backend Progress: 40%
 
-
+## Lesson 16 : Completed:
+- GET by ID
+- Optional
+- Path Variables
+Backend Progress: 45%

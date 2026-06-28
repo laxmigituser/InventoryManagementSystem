@@ -170,6 +170,9 @@ Hibernate
 ↓
 PostgreSQL
 
-
+# Path Variables
+Annotation: @PathVariable
+Example:GET /products/1
+Result: Long id = 1
 
 
