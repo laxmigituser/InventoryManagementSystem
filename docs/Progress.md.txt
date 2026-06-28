@@ -3,106 +3,60 @@ Date: 2026-06-26
 # Progress
 
 ## Completed
-
 - Roadmap created
 - Project folder structure created
 - Documentation structure created
 - Technology stack finalized
 - UI testing framework selected (Playwright + TypeScript)
 
-## Current Lesson
-
-Requirements Gathering
-
-## Next
-
-Create Software Architecture
-
+## Current Lesson : Requirements Gathering
+## Next : Create Software Architecture
 ## Completed
-
 - Software architecture defined
 - Request flow understood
 - Application modules identified
 
-## Current Lesson
-
-Lesson 2 – Software Architecture
-
-## Next
-
-Lesson 3 – Database Design
-
+## Current Lesson : Lesson 2 – Software Architecture
+## Next : Lesson 3 – Database Design
 ## Completed
-
 - Database entities identified
 - Relationships defined
 - Initial schema documented
 
-## Current Lesson
-
-Lesson 3 – Database Design
-
-## Next
-
-Lesson 4 – Development Environment & Git Workflow
-
+## Current Lesson : Lesson 3 – Database Design
+## Next : Lesson 4 – Development Environment & Git Workflow
 ## Completed
-
 - Development tools verified
 - Git configured
 - GitHub repository connected
 
-## Current Lesson
-
-Lesson 4 – Development Environment & Git Workflow
-
-## Next
-
-Lesson 5 – Spring Boot Fundamentals
+## Current Lesson : Lesson 4 – Development Environment & Git Workflow
+## Next : Lesson 5 – Spring Boot Fundamentals
 ## Completed
-
 - Client/Server architecture
 - HTTP
 - REST API
 - JSON
 
-## Current Lesson
-
-Backend Fundamentals
-
-## Next
-
-Create Spring Boot Project
+## Current Lesson : Backend Fundamentals
+## Next : Create Spring Boot Project
 ## Completed
-
 - Spring Boot project generated
 - Backend project imported into IntelliJ
 - Project structure reviewed
 
-## Current
-
-Reviewing generated Spring Boot files
-
-## Next
-
-Understand Maven and pom.xml
+## Current : Reviewing generated Spring Boot files
+## Next : Understand Maven and pom.xml
 ## Completed
-
 - Spring Boot project created
 - Project imported into IntelliJ
 - Project structure verified
 
-## Current
-
-Understanding generated Spring Boot project
-
-## Next
-
-Learn Maven and pom.xml
+## Current : Understanding generated Spring Boot project
+## Next : Learn Maven and pom.xml
 # Project Progress
 
 ## Phase 1 - Backend Foundation ✅
-
 - [x] Project Setup
 - [x] Maven Configuration
 - [x] PostgreSQL Configuration
@@ -113,43 +67,43 @@ Learn Maven and pom.xml
 - [x] Postman Testing
 
 ## Next
-
 - [ ] JPA & Hibernate
 - [ ] Product Entity
 - [ ] Product Repository
 - [ ] Product Service
 - [ ] Product Controller
-## Completed
 
+## Completed
 - Spring Boot setup
 - PostgreSQL configuration
 - Health API
 - Security configuration
 - Product Entity created
+
 ## Lesson 11 - Product Entity
 
 ### Completed
-
 - Learned ORM concepts
 - Learned JPA
 - Learned Hibernate
 - Created Product Entity
 - Hibernate generated products table
 - Verified table in PostgreSQL
+Status: Backend Progress: 20%
 
-Status:
-Backend Progress: 20%
-
-## Lesson 12
-Completed:
+## Lesson 12 : Completed:
 - Repository Layer
-Backend Progress:
-25%
+Backend Progress: 25%
 
-## Lesson 13
-Completed:
+## Lesson 13 : Completed:
 - Service Layer
 - Constructor Injection
 - Dependency Injection
-Backend Progress:
-30%
+Backend Progress : 30%
+
+## Lesson 14 : Completed
+- Controller Layer
+- GET /api/v1/products
+Backend Progress : 35%
+
+

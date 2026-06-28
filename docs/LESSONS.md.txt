@@ -27,3 +27,13 @@ Implementation:
 - Created ProductService
 - Added getAllProducts()
 
+## Lesson 14
+Topics:
+- REST Controller
+- Request Mapping
+- Get Mapping
+- JSON Serialization
+Implementation:
+- ProductController
+- GET /api/v1/products
+

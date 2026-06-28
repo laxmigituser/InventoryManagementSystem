@@ -1,37 +1,35 @@
 # Lesson 9 - First REST API
 
 ## Controller
-
 A Spring component responsible for handling HTTP requests.
 
 ## Annotations Learned
-
 - @RestController
 - @RequestMapping
 - @GetMapping
 
 ## Endpoint
-
 GET /api/v1/health
-
-## Response
-
+Response:
 {
   "status": "UP",
   "application": "Inventory Management System",
   "version": "1.0.0"
 }
+
 # Lesson 11
-
 Health API completed.
-
 Started Product module.
-
 Created Product entity.
-
 Database table managed by Hibernate.
 
 # Lesson 12
-
 Created ProductRepository.
 Spring Data JPA automatically provides CRUD methods.
+
+# Lesson 14
+## Endpoint
+GET /api/v1/products
+Purpose:Returns all products.
+Status:Implemented
+Response:200 OK []

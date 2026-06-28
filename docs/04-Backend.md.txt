@@ -1,73 +1,34 @@
 # Backend Fundamentals
 
-## Client
-
-Software that sends requests to the backend.
-
+## Client: Software that sends requests to the backend.
 Examples:
 - Browser
 - Postman
 - Playwright
 
----
+## Server: Software that receives requests and sends responses.
+Our server: Spring Boot
 
-## Server
-
-Software that receives requests and sends responses.
-
-Our server:
-- Spring Boot
-
----
-
-## HTTP
-
-Protocol used for communication between client and server.
-
----
-
+## HTTP: Protocol used for communication between client and server.
 ## HTTP Methods
+GET: Read data
+POST: Create data
+PUT:  Update data
+DELETE: Delete data
 
-GET
-Read data
+## JSON: Format used to exchange data between frontend and backend.
 
-POST
-Create data
+## REST API: Collection of HTTP endpoints exposed by the backend.
 
-PUT
-Update data
-
-DELETE
-Delete data
-
----
-
-## JSON
-
-Format used to exchange data between frontend and backend.
-
----
-
-## REST API
-
-Collection of HTTP endpoints exposed by the backend.
 # Spring Boot Project Setup
-
-## Project Generator
-
-Spring Initializr (https://start.spring.io)
-
-## IDE
-
-IntelliJ IDEA Community Edition
+## Project Generator : Spring Initializr (https://start.spring.io)
+## IDE : IntelliJ IDEA Community Edition
 
 ## Project Structure
-
 InventoryManagementSystem/
 └── backend/
 
 ## Dependencies
-
 - Spring Web
 - Spring Data JPA
 - PostgreSQL Driver
@@ -77,44 +38,26 @@ InventoryManagementSystem/
 - Spring Boot DevTools
 
 # Maven
-
-## What is Maven?
-
-Build automation and dependency management tool.
-
+## What is Maven? : Build automation and dependency management tool.
 Responsibilities:
-
 - Download dependencies
 - Compile Java
 - Run tests
 - Package application
 - Manage versions
 
----
-
-## pom.xml
-
-Project Object Model
-
+## pom.xml : Project Object Model
 Contains:
-
 - Project metadata
 - Dependencies
 - Plugins
 - Build configuration
 
----
-
 ## Common Commands
-
 mvn clean
-
 mvn compile
-
 mvn test
-
 mvn package
-
 mvn clean install
 
 ## Maven Dependencies
@@ -131,41 +74,27 @@ mvn clean install
 | Spring Boot Test | Testing support |
 
 # Spring Boot Startup
-
-## Application Entry Point
-
-InventoryBackendApplication.java
-
+## Application Entry Point : InventoryBackendApplication.java
 ## Startup Flow
-
 main()
 ↓
-
 SpringApplication.run()
 ↓
-
 Read Configuration
 ↓
-
 Create IoC Container
 ↓
-
 Component Scan
 ↓
-
 Create Beans
 ↓
-
 Dependency Injection
 ↓
-
 Start Embedded Tomcat
 ↓
-
 Application Ready
 
 ## Important Concepts
-
 - IoC Container
 - Bean
 - Dependency Injection
@@ -173,66 +102,33 @@ Application Ready
 - Embedded Tomcat
 
 # JPA & Hibernate
-
-## ORM
-
-Object Relational Mapping converts Java objects into database records.
-
-## JPA
-
-Java Persistence API
-
-Specification only.
-
-## Hibernate
-
-Implementation of JPA.
-
-Spring Boot uses Hibernate by default.
-
-## Entity
-
-Represents a database table.
-
+## ORM : Object Relational Mapping converts Java objects into database records.
+## JPA : Java Persistence API . Specification only.
+## Hibernate : Implementation of JPA. Spring Boot uses Hibernate by default.
+## Entity : Represents a database table.
 Annotations learned:
-
 - @Entity
 - @Table
 - @Id
 - @GeneratedValue
 - @Column
+
 ## Product Entity
-
-Entity Name:
-Product
-
-Mapped Table:
-products
-
-Primary Key:
-id
-
-Auto Generation:
-GenerationType.IDENTITY
-
+Entity Name : Product
+Mapped Table: products
+Primary Key: id
+Auto Generation: GenerationType.IDENTITY
 Data Types:
 - String
 - BigDecimal
 - Integer
 - Long
-# Repository Layer
 
-Repository is responsible for database communication.
-
+# Repository Layer : Repository is responsible for database communication.
 Technology:
 - Spring Data JPA
-
-Interface:
-ProductRepository
-
-Extends:
-JpaRepository<Product, Long>
-
+Interface:ProductRepository
+Extends: JpaRepository<Product, Long>
 Benefits:
 - No SQL required
 - CRUD methods generated automatically
@@ -247,5 +143,20 @@ Benefits:
 - Easier testing
 - Follows SRP
 - Business rules centralized
+
+# Controller Layer
+Annotation:@RestController
+Base Path:/api/v1/products
+Method:GET
+Business Flow:
+Controller
+↓
+Service
+↓
+Repository
+↓
+Database
+
+
 
 

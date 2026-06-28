@@ -1,16 +1,7 @@
 # Glossary
 
-## Maven
-
-A build automation and dependency management tool for Java projects.
-
----
-
-## POM
-
-Project Object Model.
-
-The XML file that tells Maven how to build the project.
+## Maven : A build automation and dependency management tool for Java projects.
+## POM : Project Object Model. The XML file that tells Maven how to build the project.
 
 ---
 
@@ -79,57 +70,23 @@ Spring searches packages for annotated classes and registers them as beans.
 
 ---
 
-## Embedded Tomcat
-
-A web server bundled inside the Spring Boot application.
-
-## ORM
-
-Object Relational Mapping.
-
-Maps Java objects to relational database tables.
-
----
-
-## Entity
-
-A Java class mapped to a database table.
-
----
-
-## JPA
-
-Java Persistence API.
-
-A specification for ORM.
-
----
-
-## Hibernate
-
-The default JPA implementation used by Spring Boot.
-## ddl-auto
-
-Hibernate property that controls schema generation.
-
+## Embedded Tomcat : A web server bundled inside the Spring Boot application.
+## ORM : Object Relational Mapping. Maps Java objects to relational database tables.
+## Entity : A Java class mapped to a database table.
+## JPA : Java Persistence API. A specification for ORM.
+## Hibernate : The default JPA implementation used by Spring Boot.
+## ddl-auto : Hibernate property that controls schema generation.
 Options:
 - none
 - validate
 - update
 - create
 - create-drop
-
-## Repository
-Data Access Layer responsible for communicating with the database.
----
-## JpaRepository
-Spring Data JPA interface that provides CRUD operations without writing SQL.
-
-## Service Layer
-Contains business logic.
-
-## Dependency Injection (DI)
-Spring automatically provides required dependencies instead of creating them manually.
-
-## Constructor Injection
-Preferred way of injecting dependencies in Spring Boot.
+## Repository : Data Access Layer responsible for communicating with the database.
+## JpaRepository : Spring Data JPA interface that provides CRUD operations without writing SQL.
+## Service Layer : Contains business logic.
+## Dependency Injection (DI) : Spring automatically provides required dependencies instead of creating them manually.
+## Constructor Injection : Preferred way of injecting dependencies in Spring Boot.
+## REST Controller : A Spring component that exposes REST APIs and automatically converts Java objects into JSON.
+## Request Mapping : Maps HTTP URLs to controller methods.
+## Get Mapping : Handles HTTP GET requests.
