@@ -145,3 +145,11 @@ Completed:
 - Repository Layer
 Backend Progress:
 25%
+
+## Lesson 13
+Completed:
+- Service Layer
+- Constructor Injection
+- Dependency Injection
+Backend Progress:
+30%

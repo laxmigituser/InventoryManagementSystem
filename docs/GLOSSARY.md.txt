@@ -125,4 +125,11 @@ Data Access Layer responsible for communicating with the database.
 ## JpaRepository
 Spring Data JPA interface that provides CRUD operations without writing SQL.
 
+## Service Layer
+Contains business logic.
 
+## Dependency Injection (DI)
+Spring automatically provides required dependencies instead of creating them manually.
+
+## Constructor Injection
+Preferred way of injecting dependencies in Spring Boot.

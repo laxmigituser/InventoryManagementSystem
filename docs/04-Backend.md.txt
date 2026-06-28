@@ -237,4 +237,15 @@ Benefits:
 - No SQL required
 - CRUD methods generated automatically
 
+# Service Layer
+Purpose:
+Contains business logic.
+Annotation:@Service
+Dependency Injection:Constructor Injection
+Benefits:
+- Separation of concerns
+- Easier testing
+- Follows SRP
+- Business rules centralized
+
 

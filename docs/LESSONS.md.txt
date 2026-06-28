@@ -16,3 +16,14 @@ Implementation:
 
 Outcome:
 Hibernate created products table automatically.
+
+## Lesson 13
+Topics:
+- Service Layer
+- Dependency Injection
+- Constructor Injection
+- SOLID (SRP)
+Implementation:
+- Created ProductService
+- Added getAllProducts()
+
