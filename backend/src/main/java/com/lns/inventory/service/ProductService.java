@@ -1,6 +1,7 @@
 package com.lns.inventory.service;
 
 import com.lns.inventory.entity.Product;
+import com.lns.inventory.exception.ProductNotFoundException;
 import com.lns.inventory.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 import java.util.Optional;
@@ -23,7 +24,8 @@ public class ProductService {
         return productRepository.save(product);
     }
 
-    public Optional<Product> getProductById(Long id) {
-        return productRepository.findById(id);
+    public Product getProductById(Long id) {
+        return productRepository.findById(id)
+                .orElseThrow(() -> new ProductNotFoundException(id));
     }
 }

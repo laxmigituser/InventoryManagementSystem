@@ -55,3 +55,13 @@ Topics:
 Implementation:
 - getProductById()
 
+## Lesson 17
+Topics
+- RuntimeException
+- Custom Exception
+- Global Exception Handler
+
+Implementation
+- ProductNotFoundException
+- GlobalExceptionHandler
+

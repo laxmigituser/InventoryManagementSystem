@@ -175,4 +175,13 @@ Annotation: @PathVariable
 Example:GET /products/1
 Result: Long id = 1
 
+# Global Exception Handling
+Package: exception
+Components:
+- ProductNotFoundException
+- GlobalExceptionHandler
+Annotations:
+@RestControllerAdvice
+@ExceptionHandler
+
 

@@ -117,3 +117,10 @@ Backend Progress: 40%
 - Optional
 - Path Variables
 Backend Progress: 45%
+
+## Lesson 17 : Completed
+- Custom Exception
+- Global Exception Handler
+- 404 Response
+Backend Progress: 50%
+

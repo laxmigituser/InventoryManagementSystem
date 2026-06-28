@@ -44,3 +44,9 @@ Response: 201 Created
 Purpose: Returns one product by ID.
 Status: Implemented
 Response: 200 OK
+
+GET /api/v1/products/{id}
+Responses: 
+200 OK
+404 Not Found
+
