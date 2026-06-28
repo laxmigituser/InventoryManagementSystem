@@ -2,74 +2,16 @@
 
 ## Maven : A build automation and dependency management tool for Java projects.
 ## POM : Project Object Model. The XML file that tells Maven how to build the project.
-
----
-
-## Dependency
-
-An external library your application uses.
-
-Example:
-
-Spring Web
-
----
-
-## Artifact
-
-The output produced by Maven.
-
-Usually a JAR file.
-
----
-
-## Snapshot
-
-A development version of an application.
-
-## Starter Dependency
-
-A Spring Boot dependency that brings in a collection of related libraries.
-
-Example:
-spring-boot-starter-web
-
----
-
-## Lombok
-
-A library that generates boilerplate code such as getters, setters, constructors, builders, and more during compilation.
-
----
-
-## DevTools
-
-A Spring Boot library that automatically restarts the application when code changes during development.
-
-## Bean
-
-A Java object managed by the Spring IoC Container.
-
----
-
-## IoC (Inversion of Control)
-
-Spring manages object creation instead of the developer.
-
----
-
-## Dependency Injection
-
-Spring automatically provides required objects (dependencies) to other objects.
-
----
-
-## Component Scan
-
-Spring searches packages for annotated classes and registers them as beans.
-
----
-
+## Dependency : An external library your application uses. Example: Spring Web
+## Artifact : The output produced by Maven. Usually a JAR file.
+## Snapshot : A development version of an application.
+## Starter Dependency : A Spring Boot dependency that brings in a collection of related libraries. Example: spring-boot-starter-web
+## Lombok : A library that generates boilerplate code such as getters, setters, constructors, builders, and more during compilation.
+## DevTools : A Spring Boot library that automatically restarts the application when code changes during development.
+## Bean : A Java object managed by the Spring IoC Container.
+## IoC (Inversion of Control) : Spring manages object creation instead of the developer.
+## Dependency Injection : Spring automatically provides required objects (dependencies) to other objects.
+## Component Scan : Spring searches packages for annotated classes and registers them as beans.
 ## Embedded Tomcat : A web server bundled inside the Spring Boot application.
 ## ORM : Object Relational Mapping. Maps Java objects to relational database tables.
 ## Entity : A Java class mapped to a database table.
@@ -90,3 +32,5 @@ Options:
 ## REST Controller : A Spring component that exposes REST APIs and automatically converts Java objects into JSON.
 ## Request Mapping : Maps HTTP URLs to controller methods.
 ## Get Mapping : Handles HTTP GET requests.
+## @RequestBody: Converts JSON from an HTTP request into a Java object.
+## @PostMapping: Maps HTTP POST requests to controller methods.

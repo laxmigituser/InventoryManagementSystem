@@ -33,3 +33,11 @@ GET /api/v1/products
 Purpose:Returns all products.
 Status:Implemented
 Response:200 OK []
+
+# Lesson 15
+## Endpoint
+POST /api/v1/products
+Purpose: Creates a new product.
+Status: Implemented
+Response: 201 Created
+

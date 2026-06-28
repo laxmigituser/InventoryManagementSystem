@@ -157,6 +157,19 @@ Repository
 ↓
 Database
 
+# Create Product Flow
+POST Request
+↓
+Controller
+↓
+Service
+↓
+Repository
+↓
+Hibernate
+↓
+PostgreSQL
+
 
 
 

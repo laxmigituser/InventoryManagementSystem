@@ -37,3 +37,13 @@ Implementation:
 - ProductController
 - GET /api/v1/products
 
+## Lesson 15
+Topics:
+- POST API
+- RequestBody
+- JSON Mapping
+- HTTP 201
+Implementation:
+- createProduct()
+- Save Product to PostgreSQL
+
