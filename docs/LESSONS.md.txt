@@ -1,0 +1,18 @@
+## Lesson 11
+
+Topic:
+- ORM
+- JPA
+- Hibernate
+- Entity Mapping
+
+Implementation:
+- Created Product entity
+- Used @Entity
+- Used @Table
+- Used @Id
+- Used @GeneratedValue
+- Used @Column
+
+Outcome:
+Hibernate created products table automatically.

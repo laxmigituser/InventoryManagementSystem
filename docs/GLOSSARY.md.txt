@@ -108,3 +108,21 @@ A specification for ORM.
 ## Hibernate
 
 The default JPA implementation used by Spring Boot.
+## ddl-auto
+
+Hibernate property that controls schema generation.
+
+Options:
+- none
+- validate
+- update
+- create
+- create-drop
+
+## Repository
+Data Access Layer responsible for communicating with the database.
+---
+## JpaRepository
+Spring Data JPA interface that provides CRUD operations without writing SQL.
+
+

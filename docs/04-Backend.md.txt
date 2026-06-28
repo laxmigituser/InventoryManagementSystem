@@ -201,3 +201,40 @@ Annotations learned:
 - @Id
 - @GeneratedValue
 - @Column
+## Product Entity
+
+Entity Name:
+Product
+
+Mapped Table:
+products
+
+Primary Key:
+id
+
+Auto Generation:
+GenerationType.IDENTITY
+
+Data Types:
+- String
+- BigDecimal
+- Integer
+- Long
+# Repository Layer
+
+Repository is responsible for database communication.
+
+Technology:
+- Spring Data JPA
+
+Interface:
+ProductRepository
+
+Extends:
+JpaRepository<Product, Long>
+
+Benefits:
+- No SQL required
+- CRUD methods generated automatically
+
+

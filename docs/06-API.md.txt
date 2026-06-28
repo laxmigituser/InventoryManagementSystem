@@ -30,3 +30,8 @@ Started Product module.
 Created Product entity.
 
 Database table managed by Hibernate.
+
+# Lesson 12
+
+Created ProductRepository.
+Spring Data JPA automatically provides CRUD methods.

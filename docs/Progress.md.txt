@@ -126,3 +126,22 @@ Learn Maven and pom.xml
 - Health API
 - Security configuration
 - Product Entity created
+## Lesson 11 - Product Entity
+
+### Completed
+
+- Learned ORM concepts
+- Learned JPA
+- Learned Hibernate
+- Created Product Entity
+- Hibernate generated products table
+- Verified table in PostgreSQL
+
+Status:
+Backend Progress: 20%
+
+## Lesson 12
+Completed:
+- Repository Layer
+Backend Progress:
+25%
