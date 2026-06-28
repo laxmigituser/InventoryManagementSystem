@@ -99,3 +99,23 @@ Understanding generated Spring Boot project
 ## Next
 
 Learn Maven and pom.xml
+# Project Progress
+
+## Phase 1 - Backend Foundation ✅
+
+- [x] Project Setup
+- [x] Maven Configuration
+- [x] PostgreSQL Configuration
+- [x] Spring Boot Setup
+- [x] Spring Security Configuration
+- [x] Health API
+- [x] Browser Testing
+- [x] Postman Testing
+
+## Next
+
+- [ ] JPA & Hibernate
+- [ ] Product Entity
+- [ ] Product Repository
+- [ ] Product Service
+- [ ] Product Controller
