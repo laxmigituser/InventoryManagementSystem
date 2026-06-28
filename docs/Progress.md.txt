@@ -130,3 +130,8 @@ Backend Progress: 50%
 - Input Constraints
 Backend Progress: 55%
 
+## Lesson 19: Completed
+- Global Validation Exception Handling
+- Standardized Validation Response
+Backend Progress: 60%
+

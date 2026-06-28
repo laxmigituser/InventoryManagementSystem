@@ -44,3 +44,5 @@ Options:
 ## @NotBlank : Ensures a String is not null and not empty after trimming whitespace.
 ## @Positive : Ensures a numeric value is greater than zero.
 ## @Min : Specifies the minimum allowed numeric value.
+## @ControllerAdvice : Provides centralized exception handling across all controllers.
+## MethodArgumentNotValidException : Thrown when a request object annotated with @Valid fails validation.

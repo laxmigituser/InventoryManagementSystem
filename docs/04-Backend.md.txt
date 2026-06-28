@@ -193,4 +193,10 @@ Annotations:
 - @Positive
 - @Min
 
+## Global Validation Handling
+Implemented centralized validation error handling using:
+- @ControllerAdvice
+- MethodArgumentNotValidException
+- ValidationErrorResponse
+
 

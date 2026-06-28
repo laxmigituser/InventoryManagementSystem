@@ -60,3 +60,14 @@ Responses:
 201 Created
 400 Bad Request
 
+### Validation Error Response
+Status: 400
+{
+  "timestamp": "...",
+  "status": 400,
+  "message": "Validation Failed",
+  "errors": {
+      "field": "validation message"
+  }
+}
+
