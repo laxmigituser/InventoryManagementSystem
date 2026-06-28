@@ -21,3 +21,12 @@ GET /api/v1/health
   "application": "Inventory Management System",
   "version": "1.0.0"
 }
+# Lesson 11
+
+Health API completed.
+
+Started Product module.
+
+Created Product entity.
+
+Database table managed by Hibernate.

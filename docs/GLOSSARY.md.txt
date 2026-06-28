@@ -82,3 +82,29 @@ Spring searches packages for annotated classes and registers them as beans.
 ## Embedded Tomcat
 
 A web server bundled inside the Spring Boot application.
+
+## ORM
+
+Object Relational Mapping.
+
+Maps Java objects to relational database tables.
+
+---
+
+## Entity
+
+A Java class mapped to a database table.
+
+---
+
+## JPA
+
+Java Persistence API.
+
+A specification for ORM.
+
+---
+
+## Hibernate
+
+The default JPA implementation used by Spring Boot.

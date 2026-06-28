@@ -119,3 +119,10 @@ Learn Maven and pom.xml
 - [ ] Product Repository
 - [ ] Product Service
 - [ ] Product Controller
+## Completed
+
+- Spring Boot setup
+- PostgreSQL configuration
+- Health API
+- Security configuration
+- Product Entity created

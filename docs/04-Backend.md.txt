@@ -172,3 +172,32 @@ Application Ready
 - Component Scanning
 - Embedded Tomcat
 
+# JPA & Hibernate
+
+## ORM
+
+Object Relational Mapping converts Java objects into database records.
+
+## JPA
+
+Java Persistence API
+
+Specification only.
+
+## Hibernate
+
+Implementation of JPA.
+
+Spring Boot uses Hibernate by default.
+
+## Entity
+
+Represents a database table.
+
+Annotations learned:
+
+- @Entity
+- @Table
+- @Id
+- @GeneratedValue
+- @Column

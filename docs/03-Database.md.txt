@@ -69,3 +69,16 @@ Category 1 ---- * Product
 Supplier 1 ---- * Product
 
 Product 1 ---- * InventoryTransaction
+
+# Products Table
+
+Table Name:
+products
+
+Columns:
+
+- id
+- name
+- description
+- price
+- quantity
