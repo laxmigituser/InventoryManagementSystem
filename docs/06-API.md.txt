@@ -1,0 +1,23 @@
+# Lesson 9 - First REST API
+
+## Controller
+
+A Spring component responsible for handling HTTP requests.
+
+## Annotations Learned
+
+- @RestController
+- @RequestMapping
+- @GetMapping
+
+## Endpoint
+
+GET /api/v1/health
+
+## Response
+
+{
+  "status": "UP",
+  "application": "Inventory Management System",
+  "version": "1.0.0"
+}

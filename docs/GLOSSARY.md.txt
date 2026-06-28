@@ -54,3 +54,31 @@ A library that generates boilerplate code such as getters, setters, constructors
 ## DevTools
 
 A Spring Boot library that automatically restarts the application when code changes during development.
+
+## Bean
+
+A Java object managed by the Spring IoC Container.
+
+---
+
+## IoC (Inversion of Control)
+
+Spring manages object creation instead of the developer.
+
+---
+
+## Dependency Injection
+
+Spring automatically provides required objects (dependencies) to other objects.
+
+---
+
+## Component Scan
+
+Spring searches packages for annotated classes and registers them as beans.
+
+---
+
+## Embedded Tomcat
+
+A web server bundled inside the Spring Boot application.

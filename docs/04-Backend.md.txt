@@ -129,3 +129,46 @@ mvn clean install
 | Lombok | Boilerplate reduction |
 | DevTools | Development productivity |
 | Spring Boot Test | Testing support |
+
+# Spring Boot Startup
+
+## Application Entry Point
+
+InventoryBackendApplication.java
+
+## Startup Flow
+
+main()
+↓
+
+SpringApplication.run()
+↓
+
+Read Configuration
+↓
+
+Create IoC Container
+↓
+
+Component Scan
+↓
+
+Create Beans
+↓
+
+Dependency Injection
+↓
+
+Start Embedded Tomcat
+↓
+
+Application Ready
+
+## Important Concepts
+
+- IoC Container
+- Bean
+- Dependency Injection
+- Component Scanning
+- Embedded Tomcat
+
