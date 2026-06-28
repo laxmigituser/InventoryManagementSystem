@@ -2,6 +2,7 @@ package com.lns.inventory.controller;
 
 import com.lns.inventory.entity.Product;
 import com.lns.inventory.service.ProductService;
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,7 +30,7 @@ public class ProductController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Product createProduct(@RequestBody Product product) {
+    public Product createProduct(@Valid @RequestBody Product product) {
         return productService.createProduct(product);
     }
 

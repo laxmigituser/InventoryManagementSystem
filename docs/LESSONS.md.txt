@@ -65,3 +65,12 @@ Implementation
 - ProductNotFoundException
 - GlobalExceptionHandler
 
+## Lesson 18
+Topics:
+- Bean Validation
+- @Valid
+- Validation Annotations
+Implementation:
+- Product validation
+- Controller validation
+

@@ -124,3 +124,9 @@ Backend Progress: 45%
 - 404 Response
 Backend Progress: 50%
 
+## Lesson 18 : Completed:
+- Bean Validation
+- @Valid
+- Input Constraints
+Backend Progress: 55%
+

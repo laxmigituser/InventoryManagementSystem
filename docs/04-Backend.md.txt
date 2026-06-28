@@ -184,4 +184,13 @@ Annotations:
 @RestControllerAdvice
 @ExceptionHandler
 
+# Bean Validation
+Purpose: Validate incoming requests before processing.
+Annotations:
+- @Valid
+- @NotBlank
+- @NotNull
+- @Positive
+- @Min
+
 

@@ -50,3 +50,13 @@ Responses:
 200 OK
 404 Not Found
 
+POST /api/v1/products
+Validation Rules: 
+- Name required
+- Description required
+- Price > 0
+- Quantity >= 0
+Responses: 
+201 Created
+400 Bad Request
+

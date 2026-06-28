@@ -39,3 +39,8 @@ Options:
 ## RuntimeException: An unchecked exception that can be thrown during application execution.
 ## @RestControllerAdvice : Handles exceptions globally for all REST controllers.
 ## @ExceptionHandler : Maps specific exceptions to handler methods.
+## Bean Validation : A standard Java mechanism for validating object fields using annotations.
+## @Valid : Triggers validation on a request object.
+## @NotBlank : Ensures a String is not null and not empty after trimming whitespace.
+## @Positive : Ensures a numeric value is greater than zero.
+## @Min : Specifies the minimum allowed numeric value.
