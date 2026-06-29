@@ -29,7 +29,7 @@ Spring Data JPA automatically provides CRUD methods.
 
 # Lesson 14
 ## Endpoint : GET /api/v1/products
-Purpose:Returns all products.
+Purpose : Returns all products.
 Status:Implemented
 Response:200 OK []
 

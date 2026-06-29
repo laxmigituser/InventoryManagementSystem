@@ -46,3 +46,6 @@ Options:
 ## @Min : Specifies the minimum allowed numeric value.
 ## @ControllerAdvice : Provides centralized exception handling across all controllers.
 ## MethodArgumentNotValidException : Thrown when a request object annotated with @Valid fails validation.
+## DTO (Data Transfer Object) : An object used to transfer data between application layers without exposing the underlying database entity.
+## Request DTO : Receives data from the client.
+## Response DTO : Sends controlled data back to the client.

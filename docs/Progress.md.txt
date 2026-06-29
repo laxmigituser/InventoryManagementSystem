@@ -81,7 +81,6 @@ Date: 2026-06-26
 - Product Entity created
 
 ## Lesson 11 - Product Entity
-
 ### Completed
 - Learned ORM concepts
 - Learned JPA
@@ -134,4 +133,12 @@ Backend Progress: 55%
 - Global Validation Exception Handling
 - Standardized Validation Response
 Backend Progress: 60%
+
+## Lesson 20 : Completed
+- DTO Package
+- ProductRequestDTO
+- ProductResponseDTO
+Backend Progress : 65%
+
+
 

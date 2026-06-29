@@ -3,15 +3,11 @@
 ## Goal
 
 Build a production-quality Inventory Management System while learning full-stack development from scratch.
-
 The focus is on understanding every concept before implementation.
-
----
 
 ## Technology Stack
 
 ### Backend
-
 - Java 21
 - Spring Boot 3
 - Spring Security
@@ -20,89 +16,45 @@ The focus is on understanding every concept before implementation.
 - Maven
 
 ### Frontend
-
 - React
 - Vite
 - Material UI
 - Axios
 
 ### API Testing
-
 - REST Assured
 - JUnit 5
 
 ### UI Testing
-
 - Playwright
 - TypeScript
 
 ### DevOps
-
 - Git
 - GitHub
 - Docker
 - GitHub Actions
 
----
-
 ## Learning Rules
-
 - Explain concepts before coding.
 - Explain important code line by line.
 - Build incrementally.
 - Complete one feature before starting another.
 - Keep documentation updated.
 
----
+## Current Phase : Phase 1 - Planning
+## Current Lesson : Lesson 2 – Software Architecture
+## Current Status : Architecture documented.
+## Next Lesson : Lesson 3 – Database Design
 
-## Current Phase
+## Current Lesson : Lesson 3 – Database Design
+## Current Status : Initial database schema completed.
+## Next Lesson : Lesson 4 – Development Environment & Git Workflow
 
-Phase 1 - Planning
+## Current Lesson : Lesson 4 – Development Environment & Git Workflow
+## Current Status : Development environment prepared.
+## Next Lesson : Lesson 5 – Spring Boot Fundamentals
 
-## Current Lesson
-
-Lesson 2 – Software Architecture
-
-## Current Status
-
-Architecture documented.
-
-## Next Lesson
-
-Lesson 3 – Database Design
-
-## Current Lesson
-
-Lesson 3 – Database Design
-
-## Current Status
-
-Initial database schema completed.
-
-## Next Lesson
-
-Lesson 4 – Development Environment & Git Workflow
-
-## Current Lesson
-
-Lesson 4 – Development Environment & Git Workflow
-
-## Current Status
-
-Development environment prepared.
-
-## Next Lesson
-
-Lesson 5 – Spring Boot Fundamentals
-
-## Current Lesson
-
-Lesson 5 – Backend Fundamentals
-
-## Current Status
-
-HTTP and REST concepts understood.
-
-## Next Lesson
-
-Lesson 6 – Create First Spring Boot Project
+## Current Lesson : Lesson 5 – Backend Fundamentals
+## Current Status : HTTP and REST concepts understood.
+## Next Lesson : Lesson 6 – Create First Spring Boot Project

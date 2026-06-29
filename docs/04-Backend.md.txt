@@ -134,10 +134,9 @@ Benefits:
 - CRUD methods generated automatically
 
 # Service Layer
-Purpose:
-Contains business logic.
+Purpose: Contains business logic.
 Annotation:@Service
-Dependency Injection:Constructor Injection
+Dependency Injection : Constructor Injection
 Benefits:
 - Separation of concerns
 - Easier testing
@@ -145,9 +144,9 @@ Benefits:
 - Business rules centralized
 
 # Controller Layer
-Annotation:@RestController
-Base Path:/api/v1/products
-Method:GET
+Annotation : @RestController
+Base Path : /api/v1/products
+Method : GET
 Business Flow:
 Controller
 ↓
@@ -171,12 +170,12 @@ Hibernate
 PostgreSQL
 
 # Path Variables
-Annotation: @PathVariable
-Example:GET /products/1
+Annotation : @PathVariable
+Example : GET /products/1
 Result: Long id = 1
 
 # Global Exception Handling
-Package: exception
+Package : exception
 Components:
 - ProductNotFoundException
 - GlobalExceptionHandler
@@ -199,4 +198,12 @@ Implemented centralized validation error handling using:
 - MethodArgumentNotValidException
 - ValidationErrorResponse
 
+## DTO Layer
+Created DTO package.
+Added:
+- ProductRequestDTO
+- ProductResponseDTO
+Purpose:
+- Separate API models from database entities.
+- Prevent exposing JPA entities directly.
 

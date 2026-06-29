@@ -81,4 +81,10 @@ Topics
 - MethodArgumentNotValidException
 - Custom Error Response
 
+## Lesson 20
+Topics
+- DTO Pattern
+- Request DTO
+- Response DTO
+- API Layer Separation
 
