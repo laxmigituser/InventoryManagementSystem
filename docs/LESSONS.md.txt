@@ -88,3 +88,9 @@ Topics
 - Response DTO
 - API Layer Separation
 
+## Lesson 21
+Topics
+- Object Mapping
+- ProductMapper
+- DTO Pattern
+

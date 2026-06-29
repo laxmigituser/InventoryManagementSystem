@@ -49,3 +49,7 @@ Options:
 ## DTO (Data Transfer Object) : An object used to transfer data between application layers without exposing the underlying database entity.
 ## Request DTO : Receives data from the client.
 ## Response DTO : Sends controlled data back to the client.
+## Mapper : A dedicated class responsible for converting one object type into another.
+## Manual Mapping : Explicitly copying values from one object to another without using a framework.
+
+

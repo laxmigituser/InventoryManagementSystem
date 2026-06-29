@@ -124,9 +124,9 @@ Controller
 ↓
 DTO
 ↓
-Service
+Mapper
 ↓
-Entity
+Service
 ↓
 Repository
 ↓

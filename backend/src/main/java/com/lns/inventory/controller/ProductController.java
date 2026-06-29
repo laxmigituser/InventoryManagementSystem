@@ -1,5 +1,7 @@
 package com.lns.inventory.controller;
 
+import com.lns.inventory.dto.ProductRequestDTO;
+import com.lns.inventory.dto.ProductResponseDTO;
 import com.lns.inventory.entity.Product;
 import com.lns.inventory.service.ProductService;
 import jakarta.validation.Valid;
@@ -30,8 +32,8 @@ public class ProductController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Product createProduct(@Valid @RequestBody Product product) {
-        return productService.createProduct(product);
+    public ProductResponseDTO createProduct(@Valid @RequestBody ProductRequestDTO dto) {
+        return productService.createProduct(dto);
     }
 
     @GetMapping("/{id}")

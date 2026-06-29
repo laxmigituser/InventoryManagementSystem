@@ -1,0 +1,8 @@
+# Changelog
+## Lesson 21
+Added
+- ProductMapper
+- DTO to Entity conversion
+- Entity to DTO conversion
+- Controller now uses DTOs
+

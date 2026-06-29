@@ -207,3 +207,10 @@ Purpose:
 - Separate API models from database entities.
 - Prevent exposing JPA entities directly.
 
+## Product Mapper
+Created ProductMapper
+Methods
+- toEntity()
+- toResponseDTO()
+Purpose : Convert DTOs to Entities and vice versa.
+
