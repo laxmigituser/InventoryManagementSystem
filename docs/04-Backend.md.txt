@@ -230,3 +230,9 @@ Completed:
 - PUT accepts ProductRequestDTO and returns ProductResponseDTO
 - DELETE unchanged (204 No Content)
 
+## Lesson 23 - Pagination : Implemented pagination using Spring Data JPA.
+Classes used:
+- Page
+- Pageable
+- PageRequest
+Endpoint : GET /api/v1/products?page=0&size=10

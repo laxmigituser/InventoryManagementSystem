@@ -158,5 +158,11 @@ Completed:
 - Method References
 Backend Progress: 78%
 
+## Lesson 23 : Completed
+- Pagination
+- Pageable
+- PageRequest
+Backend Progress : 80%
+
 
 

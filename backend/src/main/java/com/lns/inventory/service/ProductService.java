@@ -7,7 +7,9 @@ import com.lns.inventory.exception.ProductNotFoundException;
 import com.lns.inventory.mapper.ProductMapper;
 import com.lns.inventory.repository.ProductRepository;
 import org.springframework.stereotype.Service;
-import java.util.Optional;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 @Service
@@ -56,5 +58,11 @@ public class ProductService {
                 .orElseThrow(() ->
                         new ProductNotFoundException(id));
         productRepository.delete(product);
+    }
+
+    public Page<ProductResponseDTO> getProducts(int page, int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        Page<Product> productPage = productRepository.findAll(pageable);
+        return productPage.map(ProductMapper::toResponseDTO);
     }
 }

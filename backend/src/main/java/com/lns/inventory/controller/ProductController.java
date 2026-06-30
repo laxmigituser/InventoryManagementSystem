@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
 
 import java.util.List;
 import java.util.Optional;
-
+import org.springframework.data.domain.Page;
 @RestController
 @RequestMapping("/api/v1/products")
 public class ProductController {
@@ -22,8 +22,10 @@ public class ProductController {
     }
 
     @GetMapping
-    public List<ProductResponseDTO> getAllProducts() {
-        return productService.getAllProducts();
+    public Page<ProductResponseDTO> getProducts(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size) {
+        return productService.getProducts(page, size);
     }
 
     @PostMapping

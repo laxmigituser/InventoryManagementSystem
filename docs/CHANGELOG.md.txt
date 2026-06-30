@@ -16,3 +16,9 @@ Added
 Changed:
 - All CRUD APIs now use DTOs
 - Introduced Java Streams for entity-to-DTO conversion
+
+## Lesson 23
+Added
+- Pagination support
+- Pageable endpoint
+

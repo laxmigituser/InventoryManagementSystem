@@ -92,7 +92,10 @@ Request: Client → ProductRequestDTO
 Response: Server → ProductResponseDTO
 Controllers never expose JPA entities directly
 
-
+### Get Products (Paginated)
+GET /api/v1/products?page=0&size=10
+Query Parameters :page, size
+Returns : Page<ProductResponseDTO>
 
 
 
