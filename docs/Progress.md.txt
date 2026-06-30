@@ -164,5 +164,9 @@ Backend Progress: 78%
 - PageRequest
 Backend Progress : 80%
 
-
+## Lesson 24
+Completed
+- Dynamic sorting
+- Pagination + Sorting
+Backend Progress : 83%
 

@@ -97,5 +97,9 @@ GET /api/v1/products?page=0&size=10
 Query Parameters :page, size
 Returns : Page<ProductResponseDTO>
 
-
+### Sorting
+Parameters
+sortBy
+direction
+Example : GET /api/v1/products?page=0&size=10&sortBy=price&direction=desc
 

@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import java.util.List;
 
 @Service
@@ -60,8 +61,15 @@ public class ProductService {
         productRepository.delete(product);
     }
 
-    public Page<ProductResponseDTO> getProducts(int page, int size) {
-        Pageable pageable = PageRequest.of(page, size);
+    public Page<ProductResponseDTO> getProducts(
+            int page,
+            int size,
+            String sortBy,
+            String direction) {
+        Sort sort = direction.equalsIgnoreCase("desc")
+                ? Sort.by(sortBy).descending()
+                : Sort.by(sortBy).ascending();
+        Pageable pageable = PageRequest.of(page, size, sort);
         Page<Product> productPage = productRepository.findAll(pageable);
         return productPage.map(ProductMapper::toResponseDTO);
     }

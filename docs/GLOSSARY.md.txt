@@ -57,6 +57,10 @@ Options:
 ## Page : A paginated result containing data and pagination metadata.
 ## Pageable : Represents pagination information such as page number and size.
 ## PageRequest : Spring Data implementation of Pageable.
+## Sort : Spring Data class used to define sorting criteria.
+## Ascending : Lowest to highest or A to Z.
+## Descending : Highest to lowest or Z to A.
+
 
 
 

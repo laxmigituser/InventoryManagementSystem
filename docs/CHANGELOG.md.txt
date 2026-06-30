@@ -22,3 +22,7 @@ Added
 - Pagination support
 - Pageable endpoint
 
+## Lesson 24
+Added
+- Dynamic sorting support
+

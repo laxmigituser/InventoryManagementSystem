@@ -236,3 +236,9 @@ Classes used:
 - Pageable
 - PageRequest
 Endpoint : GET /api/v1/products?page=0&size=10
+
+## Lesson 24 - Sorting : Implemented dynamic sorting using Spring Data JPA.
+Examples:
+GET /api/v1/products?sortBy=price&direction=desc
+GET /api/v1/products?sortBy=name
+
