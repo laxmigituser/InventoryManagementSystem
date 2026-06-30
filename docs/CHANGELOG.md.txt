@@ -6,3 +6,13 @@ Added
 - Entity to DTO conversion
 - Controller now uses DTOs
 
+## Lesson 22
+Added
+- Update Product API
+- Delete Product API
+- DTO support for Update
+
+## Lesson 22A
+Changed:
+- All CRUD APIs now use DTOs
+- Introduced Java Streams for entity-to-DTO conversion

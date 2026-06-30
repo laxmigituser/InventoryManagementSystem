@@ -19,8 +19,10 @@ public class ProductService {
         this.productRepository = productRepository;
     }
 
-    public List<Product> getAllProducts() {
-        return productRepository.findAll();
+    public List<ProductResponseDTO> getAllProducts() {
+        return productRepository.findAll().stream()
+                .map(ProductMapper::toResponseDTO)
+                .toList();
     }
 
     public ProductResponseDTO createProduct(ProductRequestDTO dto) {
@@ -29,8 +31,30 @@ public class ProductService {
         return ProductMapper.toResponseDTO(savedProduct);
     }
 
-    public Product getProductById(Long id) {
-        return productRepository.findById(id)
+    public ProductResponseDTO  getProductById(Long id) {
+        Product product = productRepository.findById(id)
                 .orElseThrow(() -> new ProductNotFoundException(id));
+        return ProductMapper.toResponseDTO(product);
+    }
+
+    public ProductResponseDTO updateProduct(Long id, ProductRequestDTO dto) {
+        Product existingProduct = productRepository.findById(id)
+                .orElseThrow(() ->
+                        new ProductNotFoundException(id));
+        existingProduct.setName(dto.getName());
+        existingProduct.setDescription(dto.getDescription());
+        existingProduct.setPrice(dto.getPrice());
+        existingProduct.setQuantity(dto.getQuantity());
+
+        Product updatedProduct = productRepository.save(existingProduct);
+
+        return ProductMapper.toResponseDTO(updatedProduct);
+    }
+
+    public void deleteProduct(Long id) {
+        Product product = productRepository.findById(id)
+                .orElseThrow(() ->
+                        new ProductNotFoundException(id));
+        productRepository.delete(product);
     }
 }

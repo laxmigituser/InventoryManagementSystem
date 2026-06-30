@@ -94,3 +94,10 @@ Topics
 - ProductMapper
 - DTO Pattern
 
+## Lesson 22
+Topics:
+- DTO Refactoring
+- Java Streams
+- map()
+- Method References
+

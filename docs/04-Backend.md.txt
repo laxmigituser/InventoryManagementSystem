@@ -214,3 +214,19 @@ Methods
 - toResponseDTO()
 Purpose : Convert DTOs to Entities and vice versa.
 
+## CRUD Completed
+Implemented
+- Create
+- Read by ID
+- Read All
+- Update
+- Delete
+All APIs use DTOs.
+
+## Lesson 22 - CRUD DTO Refactoring
+Completed:
+- GET by ID returns ProductResponseDTO
+- GET ALL returns List<ProductResponseDTO>
+- PUT accepts ProductRequestDTO and returns ProductResponseDTO
+- DELETE unchanged (204 No Content)
+

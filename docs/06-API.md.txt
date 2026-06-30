@@ -71,3 +71,28 @@ Status: 400
   }
 }
 
+## Update Product
+PUT /api/v1/products/{id}
+Request
+{
+  "name": "...",
+  "description": "...",
+  "price": 100,
+  "quantity": 5
+}
+Response : 200 OK
+Returns ProductResponseDTO
+
+## Delete Product
+DELETE /api/v1/products/{id}
+Response : 204 No Content
+
+### API Design
+Request: Client → ProductRequestDTO
+Response: Server → ProductResponseDTO
+Controllers never expose JPA entities directly
+
+
+
+
+

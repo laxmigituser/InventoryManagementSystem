@@ -146,3 +146,17 @@ Backend Progress : 65%
 - Service Refactoring
 Backend Progress : 70%
 
+## Lesson 22 Completed
+- PUT API
+- DELETE API
+Backend Progress 75%
+
+## Lesson 22A
+Completed:
+- DTOs across all CRUD endpoints
+- Java Streams for list mapping
+- Method References
+Backend Progress: 78%
+
+
+

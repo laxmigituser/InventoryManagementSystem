@@ -51,5 +51,7 @@ Options:
 ## Response DTO : Sends controlled data back to the client.
 ## Mapper : A dedicated class responsible for converting one object type into another.
 ## Manual Mapping : Explicitly copying values from one object to another without using a framework.
-
+## Stream : A Java API for processing collections in a functional and declarative style.
+## map() : Transforms each element in a stream into another object.
+## Method Reference : A concise syntax for referring to an existing method, e.g., ProductMapper::toResponseDTO.
 
