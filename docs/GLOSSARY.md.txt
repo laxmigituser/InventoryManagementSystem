@@ -60,6 +60,9 @@ Options:
 ## Sort : Spring Data class used to define sorting criteria.
 ## Ascending : Lowest to highest or A to Z.
 ## Descending : Highest to lowest or Z to A.
+## Derived Query Method : A Spring Data JPA feature where queries are generated automatically from repository method names.
+## Containing : Generates a SQL LIKE '%value%' condition.
+## IgnoreCase : Makes string comparisons case-insensitive.
 
 
 

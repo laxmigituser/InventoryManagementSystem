@@ -65,12 +65,18 @@ public class ProductService {
             int page,
             int size,
             String sortBy,
-            String direction) {
+            String direction,
+            String keyword) {
         Sort sort = direction.equalsIgnoreCase("desc")
                 ? Sort.by(sortBy).descending()
                 : Sort.by(sortBy).ascending();
         Pageable pageable = PageRequest.of(page, size, sort);
-        Page<Product> productPage = productRepository.findAll(pageable);
+        Page<Product> productPage;
+        if (keyword == null || keyword.isBlank()) {
+            productPage = productRepository.findAll(pageable);
+        } else {
+            productPage = productRepository.findByNameContainingIgnoreCase(keyword, pageable);
+        }
         return productPage.map(ProductMapper::toResponseDTO);
     }
 }

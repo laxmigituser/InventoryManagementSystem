@@ -103,3 +103,14 @@ sortBy
 direction
 Example : GET /api/v1/products?page=0&size=10&sortBy=price&direction=desc
 
+### Search Products
+GET /api/v1/products?keyword=laptop
+Optional Query Parameters:
+page
+size
+sortBy
+direction
+keyword
+
+
+

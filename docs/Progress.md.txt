@@ -170,3 +170,12 @@ Completed
 - Pagination + Sorting
 Backend Progress : 83%
 
+## Lesson 25
+Completed:
+- Product search
+- Derived Query Methods
+- Search + Pagination + Sorting
+Backend Progress: 87%
+
+
+

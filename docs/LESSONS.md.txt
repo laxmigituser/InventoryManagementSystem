@@ -115,3 +115,10 @@ Topics
 - Ascending
 - Descending
 
+## Lesson 25
+Topics:
+- Derived Query Methods
+- Containing
+- IgnoreCase
+- Optional Request Parameters
+

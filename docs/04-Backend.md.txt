@@ -242,3 +242,11 @@ Examples:
 GET /api/v1/products?sortBy=price&direction=desc
 GET /api/v1/products?sortBy=name
 
+## Lesson 25 - Search Products
+Implemented product search using Spring Data JPA Derived Query Methods.
+Features:
+- Case-insensitive search
+- Partial text matching
+- Works with pagination
+- Works with sorting
+

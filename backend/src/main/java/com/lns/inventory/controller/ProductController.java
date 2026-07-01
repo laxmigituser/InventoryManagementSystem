@@ -26,12 +26,14 @@ public class ProductController {
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "10") int size,
             @RequestParam(defaultValue = "id") String sortBy,
-            @RequestParam(defaultValue = "asc") String direction) {
+            @RequestParam(defaultValue = "asc") String direction,
+            @RequestParam(required = false) String keyword) {
         return productService.getProducts(
                 page,
                 size,
                 sortBy,
-                direction);
+                direction,
+                keyword);
     }
 
     @PostMapping

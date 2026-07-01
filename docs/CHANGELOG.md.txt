@@ -26,3 +26,8 @@ Added
 Added
 - Dynamic sorting support
 
+## Lesson 25
+Added:
+- Product search endpoint
+- Case-insensitive partial search
+
